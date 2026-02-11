@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0033cc;
+}
+
+#myArkanoid {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#myArkanoidGameOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    z-index: 2;
+}
